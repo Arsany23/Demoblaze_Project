@@ -4,8 +4,8 @@ Feature: Add product
   Scenario: Verify that User Can Sign Up Successfully
     Given user navigate into web
     When user click on Sign up button in the Header
-    And user enter Username "Arsany Elkess Begool"
-    And user enter Password "ahmed2000"
+    And user enter Username "Arsany Elkess Begool Fathy12"
+    And user enter Password "arsany2000"
     And user click on SignUp button
     Then A success "Sign up successful." should be displayed
 
@@ -16,7 +16,7 @@ Feature: Add product
 # Given I am on the home page
     Given user navigate into web
     When user clicks on the login button in the header
-    And user fills in the login form with username "Arsany Elkess Begool" and password "ahmed2000"
+    And user fills in the login form with username "Arsany Elkess Begool Fathy12" and password "arsany2000"
     Then make sure that user logged in
   # 2-Add the first item
     Given Click on Laptops in categories in home page
@@ -33,7 +33,7 @@ Feature: Add product
     Given Validate that total amount is calculated correctly
     When Click on Place holder button
     And Validate that total amount is calculated correctly in place holder page
-    And Filling Name "Ahmed", Country "Egypt", City "Cairo", Credit Card "Visa", Month "4" and Year "24"
+    And Filling Name "Arsany", Country "Egypt", City "Cairo", Credit Card "Visa", Month "4" and Year "24"
     And Click on Purchase button in place holder Form
     Then Validate that "Thank you for your purchase!" should be displayed
 
